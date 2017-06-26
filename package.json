@@ -1,0 +1,15 @@
+{
+  "name": "cassandra",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/tsc -w -d --sourceMap"
+  },
+  "devDependencies": {
+    "@types/cassandra-driver": "^0.8.10",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "cassandra-driver": "^3.2.2"
+  }
+}
